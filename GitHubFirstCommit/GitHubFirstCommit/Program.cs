@@ -10,6 +10,7 @@ namespace GitHubFirstCommit
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("just a commit test");
         }
     }
 }
