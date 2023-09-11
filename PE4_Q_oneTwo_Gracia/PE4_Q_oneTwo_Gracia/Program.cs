@@ -1,9 +1,19 @@
 ﻿using System;
 
 namespace PE4_Q_oneTwo_Gracia
+
 {
+    // Author: Geoff Gracia
+    // Purpose:PE 4 reading and utilizing user prompt for a truth table question 2 
+    // Restrictions: None
+
     internal class Program
     {
+        // Method: Main
+        // Purpose: Take user input to create a boolean truth table and display final truth value
+        // Output: final truth value
+        // Restrictions: None
+
         static void Main(string[] args)
         {
 
