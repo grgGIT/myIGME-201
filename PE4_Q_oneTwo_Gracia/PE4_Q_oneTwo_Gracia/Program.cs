@@ -24,10 +24,17 @@ true		true		false
             Console.WriteLine();
             Console.Write("Enter Value for Var2");
             int var2= Console.Read();
+            Console.WriteLine("");
 
             if (var1 > 10 && var2 >10)
             {
                 Console.WriteLine("Invalid choices. Again, please make sure ONLY ONE variable is greater than 10 (the OTHER SHOULD BE LESS than 10)");
+                Console.WriteLine();
+                Console.Write("Enter value for Var1: ");
+                var1 = Console.Read();
+                Console.WriteLine();
+                Console.Write("Enter Value for Var2");
+                 var2 = Console.Read();
             }
            
 
