@@ -20,10 +20,12 @@ true		true		false
             Console.WriteLine("Please make sure only ONE variable is greater than 10 and the other should be less than 10.");
 
             Console.Write("Enter value for Var1: ");
-            int var1 = Console.Read();
+            string read1 = Console.ReadLine();
+            int var1 = int.Parse(read1);
             Console.WriteLine();
-            Console.Write("Enter Value for Var2");
-            int var2= Console.Read();
+            Console.Write("Enter Value for Var2: ");
+            string read2= Console.ReadLine();
+            int var2 = int.Parse(read2);
             Console.WriteLine("");
 
             if (var1 > 10 && var2 >10)
@@ -31,15 +33,17 @@ true		true		false
                 Console.WriteLine("Invalid choices. Again, please make sure ONLY ONE variable is greater than 10 (the OTHER SHOULD BE LESS than 10)");
                 Console.WriteLine();
                 Console.Write("Enter value for Var1: ");
-                var1 = Console.Read();
+                read1 = Console.ReadLine();
+                var1 = int.Parse(read1);
                 Console.WriteLine();
                 Console.Write("Enter Value for Var2");
-                 var2 = Console.Read();
+                read2 = Console.ReadLine();
+                var2 = int.Parse(read2);
             }
            
 
             bool checkValue;
-            if (var1 > 10 ^ var2  > 10)
+            if (var1 > 10 ^ var2  > 10 || var1 < 10 ^ var2 < 10)
             {
                 checkValue = true;
                 
