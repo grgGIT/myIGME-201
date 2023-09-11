@@ -34,12 +34,12 @@ true		true		false
             //first prompt for first value and reading it
             Console.Write("Enter value for Var1: ");
             string read1 = Console.ReadLine();
-            int var1 = int.Parse(read1);
+            double var1 = double.Parse(read1);
             Console.WriteLine();
             //second prompt for 2nd value and reading and saving as well
             Console.Write("Enter Value for Var2: ");
             string read2= Console.ReadLine();
-            int var2 = int.Parse(read2);
+            double var2 = double.Parse(read2);
             Console.WriteLine();
 
             //conditional to repeat the prompt if there is incorrect input of both being greater than 10
@@ -49,11 +49,11 @@ true		true		false
                 Console.WriteLine();
                 Console.Write("Enter value for Var1: ");
                 read1 = Console.ReadLine();
-                var1 = int.Parse(read1);
+                var1 = double.Parse(read1);
                 Console.WriteLine();
                 Console.Write("Enter Value for Var2");
                 read2 = Console.ReadLine();
-                var2 = int.Parse(read2);
+                var2 = double.Parse(read2);
             }
            
             //boolean value
