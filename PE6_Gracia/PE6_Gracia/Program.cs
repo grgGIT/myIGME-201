@@ -70,13 +70,16 @@ namespace PE6_Gracia
                 Console.WriteLine("turn {0}/8", i);
                 Console.WriteLine();
 
-                //tells them they can't play after turn 8
+                //tells them they can't play after turn 8 and what the number was
                 if (i == 8)
                 {
                     Console.WriteLine("It looks like you're out of tries. Please restart and try again! Bye :)");
+                    Console.WriteLine("The correct number was {0}", randNum);
                     Console.WriteLine();
                 }
             }
+
+            
 
         }
     }
