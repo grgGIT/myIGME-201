@@ -64,6 +64,7 @@ namespace PE7_Gracia
             Console.WriteLine();
 
 
+
             //for finding \n and {}
             foreach (string word in madLibArr)
             {
@@ -79,7 +80,7 @@ namespace PE7_Gracia
                 if (charFinder == '{')
                 {
                     //string.replace 
-                    Console.Write("Please write a response for this prompt: {0}" , word);
+                    Console.Write("Please write a response for this prompt: {0}", word);
                     string savedAnswer = Console.ReadLine();
                     word.Remove(word.Length - 1);
                     word.Replace(word, savedAnswer);

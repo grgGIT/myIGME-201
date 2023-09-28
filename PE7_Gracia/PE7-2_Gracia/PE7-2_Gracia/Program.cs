@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyFirstWindowsFormsApp
+namespace PE7_2_Gracia
 {
     internal class Program
     {
