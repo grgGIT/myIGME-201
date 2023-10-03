@@ -8,6 +8,12 @@ namespace Q2_Test1_Gracia
 {
     internal class Program
     {
+        //Author: Geoff Gracia - with given code
+        //purpose: request sentences and sort the words in the sentence in ascending or descending alphabetical order. 
+        //limits: keep the rest of the current code
+
+
+
         // the definition of the delegate function data type
         delegate double sortingFunction(double[] a);
 
