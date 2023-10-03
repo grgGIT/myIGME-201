@@ -167,6 +167,8 @@ namespace Q1_Test1_Gracia
                 else if (nOp == 2)
                 {
                     nAnswer = val1 / val2;
+                    //added rounding
+                    nAnswer = Math.Round(nAnswer, 2);
                     sQuestions = $"Question #{nCntr + 1}: {val1} - {val2} => ";
                 }
                 else
