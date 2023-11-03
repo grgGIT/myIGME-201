@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Phone.cs" />
     <Compile Include="PhoneBooth.cs" />
     <Compile Include="PhoneInterface.cs" />
     <Compile Include="PushButtonPhone.cs" />
