@@ -6,7 +6,27 @@ using System.Threading.Tasks;
 
 namespace Q4_GG
 {
-    internal class PushButtonPhone
+    public class PushButtonPhone: Phone, PhoneInterface
     {
+        public void Answer()
+        {
+
+        }
+        public void MakeCall()
+        {
+
+        }
+        public void HangUp()
+        {
+
+        }
+        public override void Connect()
+        {
+
+        }
+        public override void Disconnect()
+        {
+
+        }
     }
 }

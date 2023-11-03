@@ -19,7 +19,7 @@ namespace Q13_GG
             }
 
             // Method to create a shallow copy
-            public MyClassCopy()
+            public MyClass MyClassCopy()
             {
                 MyClass copy = new MyClass();
                 copy.myInt2 = this.myInt2;

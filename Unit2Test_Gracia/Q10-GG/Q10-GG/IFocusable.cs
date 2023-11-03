@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Q4_GG
+namespace Q10_GG
 {
-    public interface PhoneInterface
+    public interface IFocusable
     {
-        void Answer();
-        void MakeCall();
-        void HangUp();
-        
+        void Focus();
+        void DeFocus();
     }
 }

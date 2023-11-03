@@ -6,7 +6,27 @@ using System.Threading.Tasks;
 
 namespace Q4_GG
 {
-    internal class RotaryPhone
+    public class RotaryPhone: Phone, PhoneInterface
     {
+        public void Answer()
+        {
+
+        }
+        public void MakeCall()
+        {
+
+        }
+        public void HangUp()
+        {
+
+        }
+        public override void Connect()
+        {
+
+        }
+        public override void Disconnect()
+        {
+
+        }
     }
 }
