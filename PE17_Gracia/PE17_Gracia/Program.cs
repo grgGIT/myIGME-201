@@ -6,6 +6,7 @@ using System.Windows.Forms;
 
 namespace PE17_Gracia
 {
+    //Author:Geoff Gracia 
     internal static class Program
     {
         /// <summary>
