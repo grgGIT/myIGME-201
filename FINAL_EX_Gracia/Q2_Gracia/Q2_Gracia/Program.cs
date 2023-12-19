@@ -20,5 +20,22 @@ Console.WriteLine("Pop: " + myStack.Pop());   // Output: 40
 Console.WriteLine("Pop: " + myStack.Pop());   // Output: 20
 Console.WriteLine("Pop: " + myStack.Pop());   // Output: 10
 
-// Uncommenting the line below would throw an InvalidOperationException since the stack is empty.
-// Console.WriteLine("Pop: " + myStack.Pop());
+
+
+
+MyQueue myQueue = new MyQueue();
+
+myQueue.Enqueue(10);
+myQueue.Enqueue(20);
+myQueue.Enqueue(30);
+
+Console.WriteLine("Peek: " + myQueue.Peek()); // Output: 10
+
+Console.WriteLine("Dequeue: " + myQueue.Dequeue());   // Output: 10
+Console.WriteLine("Peek: " + myQueue.Peek());         // Output: 20
+
+myQueue.Enqueue(40);
+
+Console.WriteLine("Dequeue: " + myQueue.Dequeue());   // Output: 20
+Console.WriteLine("Dequeue: " + myQueue.Dequeue());   // Output: 30
+Console.WriteLine("Dequeue: " + myQueue.Dequeue());   // Output: 40
