@@ -19,5 +19,4 @@ Console.WriteLine("Pop: " + myStack.Pop());   // Output: 40
 Console.WriteLine("Pop: " + myStack.Pop());   // Output: 20
 Console.WriteLine("Pop: " + myStack.Pop());   // Output: 10
 
-// Uncommenting the line below would throw an InvalidOperationException since the stack is empty.
-// Console.WriteLine("Pop: " + myStack.Pop());
+
