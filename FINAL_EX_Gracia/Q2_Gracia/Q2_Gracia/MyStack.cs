@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Q1_Gracia
+namespace Q2_Gracia
 {
     internal class MyStack
     {
@@ -53,4 +53,3 @@ namespace Q1_Gracia
         }
     }
 }
-    
